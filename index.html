@@ -30,6 +30,7 @@
   <nav>
     <button class="tab-btn active" onclick="openTab('levels')">LEVELS</button>
     <button class="tab-btn" onclick="openTab('demonlist')">WBDL</button>
+    <button class="tab-btn" onclick="openGoogleClassroom()">SWITCH TO GOOGLE CLASSROOM</button>
   </nav>
 
   <div id="levels" class="tab-content active">
@@ -66,6 +67,10 @@
 
     function openGDBrowser() {
       window.open('https://gdbrowser.com', '_blank');
+    }
+
+    function openGoogleClassroom() {
+      window.location.href = 'https://classroom.google.com';
     }
   </script>
 </body>
